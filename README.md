@@ -1,0 +1,2 @@
+# CybersecurityAndDataPrivacy2025
+Kyberturvallisuus ja datan yksityisyys kurssi
