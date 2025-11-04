@@ -4,7 +4,7 @@
 | :---         |     :---:      |     :---:      |     :---:      |
 | 28.10.2025 | 2 | Kick-off lecture  | Course started |
 | 28.10.2025 | 1,5 | Cisco task  | Module 1 |
-| - | - | add subject  | Add what you did |
+| 4.11.2025 | 4 | lecture and some cisco course  | doing tasks |
 | - | - | add subject  | Add what you did |
 | - | - | add subject  | Add what you did |
 | - | - | add subject  | Add what you did |
