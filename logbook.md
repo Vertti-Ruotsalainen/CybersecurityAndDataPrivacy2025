@@ -8,4 +8,5 @@
 | 6.11.2025 | 2,5 | Cisco tasks  | module 3-5 and final exams|
 | 6.11.2025 | 1 | portswigger   | study portswigger materials |
 | 10.11.2025 | 1 | portswigger  | some labs |
-| 15.11.2025 | ? | portswigger  | some labs |
+| 15.11.2025 | 2 | portswigger  | some labs |
+| 17.11.2025 | -- | portswigger  | some more labs |
