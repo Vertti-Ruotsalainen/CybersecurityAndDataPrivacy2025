@@ -11,4 +11,6 @@
 | 15.11.2025 | 2 | portswigger  | some labs |
 | 17.11.2025 | 3 | portswigger  | some more labs |
 | 18.11.2025 | 1.5 | its learning task returns  | writing and checking some reflections from labs |
+| 19.11.2025 | -- | checking missed lectures  | lectures 3-4 and starting project |
+| 20.11.2025 | -- | project  | hackermans |
 
