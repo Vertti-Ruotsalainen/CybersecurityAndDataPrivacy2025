@@ -9,4 +9,6 @@
 | 6.11.2025 | 1 | portswigger   | study portswigger materials |
 | 10.11.2025 | 1 | portswigger  | some labs |
 | 15.11.2025 | 2 | portswigger  | some labs |
-| 17.11.2025 | -- | portswigger  | some more labs |
+| 17.11.2025 | 3 | portswigger  | some more labs |
+| 18.11.2025 | 1.5 | its learning task returns  | writing and checking some reflections from labs |
+
