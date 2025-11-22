@@ -11,5 +11,5 @@
 | 15.11.2025 | 2 | portswigger  | some labs |
 | 17.11.2025 | 3 | portswigger  | some more labs |
 | 18.11.2025 | 1.5 | its learning task returns  | writing and checking some reflections from labs |
-| 20.11.2025 | 1 | project  | configure Virtual Machine |
+| 20.11.2025 | 2 | project  | configure Virtual Machine |
 
