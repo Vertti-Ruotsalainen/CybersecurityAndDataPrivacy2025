@@ -1,13 +1,13 @@
 # 1️⃣ Introduction
 
 **Tester(s):**  
-- Name:  
+- Name:  Vertti Ruotsalainen
 
 **Purpose:**  
 - Describe the purpose of this test (e.g., identify vulnerabilities in registration and authentication flows).
 
 **Scope:**  
-- Tested components:  
+- Tested components:  Registeration
 - Exclusions:  
 - Test approach: Gray-box / Black-box / White-box
 
