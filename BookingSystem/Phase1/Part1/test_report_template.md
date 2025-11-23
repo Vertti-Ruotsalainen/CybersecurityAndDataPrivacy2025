@@ -9,7 +9,7 @@
 **Scope:**  
 - Tested components:  Registeration page
 - Exclusions:  
-- Test approach: White-box
+- Test approach: White-hat hacker, using a gray-box testing approach
 
 **Test environment & dates:**  
 - Start:  23.11
@@ -28,8 +28,8 @@
 **Overall risk level:** (Low / Medium / High / Critical)
 
 **Top 5 immediate actions:**  
-1.  Path Travelsar -- Assume all input is malicious. Use an "accept known good" input validation strategy, i.e., use an allow list of acceptable inputs that strictly conform to specifications.
-2.  SQL injection -- Do not trust client side input, even if there is client side validation in place.
+1.  Path Travelsar)(Critical -- Assume all input is malicious. Use an "accept known good" input validation strategy, i.e., use an allow list of acceptable inputs that strictly conform to specifications.
+2.  SQL injection(Critical) -- Do not trust client side input, even if there is client side validation in place.
 In general, type check all data on the server side.
 3.  
 4.  
