@@ -13,5 +13,5 @@
 | 18.11.2025 | 1.5 | its learning task returns  | writing and checking some reflections from labs |
 | 20.11.2025 | 2 | project  | configure Virtual Machine |
 | 23.11.2025 | 2 | project  | switched back to windows desktop after miserable failure on VM world(will be trying to fix this because i like working in vm kinda style) |
-| 23.11.2025 | 3 | project  | watched lecture 3 and working on ZAP attacks and documenting tasks |
+| 23.11.2025 | 6 | project  | watched lecture 3 and working on ZAP attacks and documenting tasks |
 
