@@ -7,7 +7,7 @@
 - We do fungtionality and security test for registration page
 
 **Scope:**  
-- Tested components:  Registeration
+- Tested components:  Registeration page
 - Exclusions:  
 - Test approach: White-box
 
@@ -28,8 +28,9 @@
 **Overall risk level:** (Low / Medium / High / Critical)
 
 **Top 5 immediate actions:**  
-1.  
-2.  
+1.  Path Travelsar -- Assume all input is malicious. Use an "accept known good" input validation strategy, i.e., use an allow list of acceptable inputs that strictly conform to specifications.
+2.  SQL injection -- Do not trust client side input, even if there is client side validation in place.
+In general, type check all data on the server side.
 3.  
 4.  
 5.  
