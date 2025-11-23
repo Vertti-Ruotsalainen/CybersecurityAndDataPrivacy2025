@@ -4,7 +4,7 @@
 - Name:  Vertti Ruotsalainen
 
 **Purpose:**  
-- Describe the purpose of this test (e.g., identify vulnerabilities in registration and authentication flows).
+- We do fungtionality and security test for registration page
 
 **Scope:**  
 - Tested components:  Registeration
