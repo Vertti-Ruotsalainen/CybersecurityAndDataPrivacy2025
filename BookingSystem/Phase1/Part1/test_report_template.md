@@ -9,11 +9,11 @@
 **Scope:**  
 - Tested components:  Registeration
 - Exclusions:  
-- Test approach: Gray-box / Black-box / White-box
+- Test approach: White-box
 
 **Test environment & dates:**  
-- Start:  
-- End:  
+- Start:  23.11
+- End:  23.11
 - Test environment details (OS, runtime, DB, browsers):
 
 **Assumptions & constraints:**  
@@ -48,21 +48,24 @@
 
 ---
 
-# 4️⃣ Findings (filled with examples → replace)
+# 4️⃣ Findings 
 
-> Fill in one row per finding. Focus on clarity and the most important issues.
+>
 
 | ID | Severity | Finding | Description | Evidence / Proof |
 |------|-----------|----------|--------------|------------------|
-| F-01 | 🔴 High | SQL Injection in registration | Input field allows `' OR '1'='1` injection | Screenshot or sqlmap result |
-| F-02 | 🟠 Medium | Session fixation | Session ID remains unchanged after login | Burp log or response headers |
-| F-03 | 🟡 Low | Weak password policy | Accepts passwords like "12345" | Screenshot of registration success |
+| F-01 | 🔴 High | Path Traversal | attack technique allows an attacker access to files, directories, and commands that potentially reside outside the web document root directory | <img width="541" height="171" alt="kuva" src="https://github.com/user-attachments/assets/7b39f231-15ff-448c-8c6c-9055ffa44d0c" /> |
+| F-02 | 🔴 High | SQL injection | The page results were successfully manipulated using the boolean conditions | <img width="414" height="89" alt="kuva" src="https://github.com/user-attachments/assets/ea4b6cce-1ca5-4391-af66-f59bfda6c695" /> |
+| F-03 | 🟠 Medium | Absence of Anti-CSRF Tokens | No Anti-CSRF tokens were found in a HTML submission form. | <img width="1150" height="177" alt="kuva" src="https://github.com/user-attachments/assets/21b0eb3d-0f68-47d0-abff-e24dab9a5b9f" /> |
+| F-04 | 🟠 Medium | Missing Anti-clickjacking Header | The response does not protect against 'ClickJacking' attacks | <img width="342" height="142" alt="kuva" src="https://github.com/user-attachments/assets/59c18b6a-abcc-45e2-9cea-6021149881bd" /> |
+| F-05 | 🟡 Low | Application error disclosure | error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception | <img width="490" height="142" alt="kuva" src="https://github.com/user-attachments/assets/3d7d43dc-0ed4-4700-a6ea-bd624a900bd9" /> |
+
+
+
 
 ---
 
-> [!NOTE]
-> Include up to 5 findings total.   
-> Keep each description short and clear.
+
 
 ---
 
