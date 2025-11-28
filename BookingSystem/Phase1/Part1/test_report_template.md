@@ -56,8 +56,8 @@ Tests found many critical errors from app.
 
 | ID | Severity | Finding | Description | Evidence / Proof |
 |------|-----------|----------|--------------|------------------|
-| F-01 | 🔴 High | Path Traversal | attack technique allows an attacker access to files, directories, and commands that potentially reside outside the web document root directory | <img width="1156" height="145" alt="kuva" src="https://github.com/user-attachments/assets/3eaf651f-36ad-4f00-bf66-ceac4e124960" /> |
-| F-02 | 🔴 High | SQL injection | The page results were successfully manipulated using the boolean conditions | <img width="1216" height="137" alt="kuva" src="https://github.com/user-attachments/assets/95960b38-eaad-4571-af66-85a447ac6a9c" /> |
+| F-01 | 🔴 High | Path Traversal | This vulnerability allows attackers to access files and directories outside the web root due to insufficient input validation | <img width="1156" height="145" alt="kuva" src="https://github.com/user-attachments/assets/3eaf651f-36ad-4f00-bf66-ceac4e124960" /> |
+| F-02 | 🔴 High | SQL injection | The page can be successfully manipulated using the boolean conditions | <img width="1216" height="137" alt="kuva" src="https://github.com/user-attachments/assets/95960b38-eaad-4571-af66-85a447ac6a9c" /> |
 | F-03 | 🟠 Medium | Absence of Anti-CSRF Tokens | No Anti-CSRF tokens were found in a HTML submission form. | <img width="1150" height="177" alt="kuva" src="https://github.com/user-attachments/assets/21b0eb3d-0f68-47d0-abff-e24dab9a5b9f" /> |
 | F-04 | 🟠 Medium | Missing Anti-clickjacking Header | The response does not protect against 'ClickJacking' attacks | <img width="342" height="142" alt="kuva" src="https://github.com/user-attachments/assets/59c18b6a-abcc-45e2-9cea-6021149881bd" /> |
 | F-05 | 🟡 Low | Application error disclosure | error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception | <img width="490" height="142" alt="kuva" src="https://github.com/user-attachments/assets/3d7d43dc-0ed4-4700-a6ea-bd624a900bd9" /> |
