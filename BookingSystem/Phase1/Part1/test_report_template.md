@@ -4,7 +4,7 @@
 - Name:  Vertti Ruotsalainen
 
 **Purpose:**  
-- We do fungtionality and security test for registration page
+- fungtionality and security test for registration page
 
 **Scope:**  
 - Tested components:  Registeration page
@@ -12,12 +12,12 @@
 - Test approach: White-hat hacker, using a gray-box testing approach
 
 **Test environment & dates:**  
-- Start:  23.11
-- End:  23.11
+- Start:  23.11 
+- End:  28.11
 - Test environment details (OS, runtime, DB, browsers): Using Desktop Docker and PowerShell
 
 **Assumptions & constraints:**  
-- e.g., credentials provided, limited time, etc.
+- Testing was limited to registration page
 
 ---
 
@@ -25,15 +25,16 @@
 
 **Short summary (1-2 sentences):**  
 
+Tests found many critical errors from app.
+
 **Overall risk level:** (Low / Medium / High / Critical)
 
 **Top 5 immediate actions:**  
-1.  Path Travelsar)(Critical -- Assume all input is malicious. Use an "accept known good" input validation strategy, i.e., use an allow list of acceptable inputs that strictly conform to specifications.
-2.  SQL injection(Critical) -- Do not trust client side input, even if there is client side validation in place.
-In general, type check all data on the server side.
-3.  
-4.  
-5.  
+1.  (Critical)Secure input handling and validation -- Block high risk characters and patters such ', ", --, <, ../, etc.
+2.  SQL injection(Critical) -- Convert all SQL queries to parameterized/prepared statements and remove any dynamic SQL constructions to eliminate exploitation via UNION SELECT, sleep(15), and logic-based injection payload
+3.  (HIGH)Start to think about strict path normalization and whitelist allowed directories to block access to sensitive paths such /etc/passwd, c:\windows\system.ini, and ../../../ 
+4.  (HIGH) Restrict server-side command and template execution to prevent SSTI/command injection.
+5. (HIGH) Add web app firewall middleware filtering engine 
 
 ---
 
