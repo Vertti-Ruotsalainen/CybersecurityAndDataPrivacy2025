@@ -14,7 +14,7 @@
 **Test environment & dates:**  
 - Start:  23.11
 - End:  23.11
-- Test environment details (OS, runtime, DB, browsers):
+- Test environment details (OS, runtime, DB, browsers): Using Desktop Docker and PowerShell
 
 **Assumptions & constraints:**  
 - e.g., credentials provided, limited time, etc.
@@ -55,8 +55,8 @@ In general, type check all data on the server side.
 
 | ID | Severity | Finding | Description | Evidence / Proof |
 |------|-----------|----------|--------------|------------------|
-| F-01 | 🔴 High | Path Traversal | attack technique allows an attacker access to files, directories, and commands that potentially reside outside the web document root directory | <img width="541" height="171" alt="kuva" src="https://github.com/user-attachments/assets/7b39f231-15ff-448c-8c6c-9055ffa44d0c" /> |
-| F-02 | 🔴 High | SQL injection | The page results were successfully manipulated using the boolean conditions | <img width="414" height="89" alt="kuva" src="https://github.com/user-attachments/assets/ea4b6cce-1ca5-4391-af66-f59bfda6c695" /> |
+| F-01 | 🔴 High | Path Traversal | attack technique allows an attacker access to files, directories, and commands that potentially reside outside the web document root directory | <img width="1156" height="145" alt="kuva" src="https://github.com/user-attachments/assets/3eaf651f-36ad-4f00-bf66-ceac4e124960" /> |
+| F-02 | 🔴 High | SQL injection | The page results were successfully manipulated using the boolean conditions | <img width="1216" height="137" alt="kuva" src="https://github.com/user-attachments/assets/95960b38-eaad-4571-af66-85a447ac6a9c" /> |
 | F-03 | 🟠 Medium | Absence of Anti-CSRF Tokens | No Anti-CSRF tokens were found in a HTML submission form. | <img width="1150" height="177" alt="kuva" src="https://github.com/user-attachments/assets/21b0eb3d-0f68-47d0-abff-e24dab9a5b9f" /> |
 | F-04 | 🟠 Medium | Missing Anti-clickjacking Header | The response does not protect against 'ClickJacking' attacks | <img width="342" height="142" alt="kuva" src="https://github.com/user-attachments/assets/59c18b6a-abcc-45e2-9cea-6021149881bd" /> |
 | F-05 | 🟡 Low | Application error disclosure | error/warning message that may disclose sensitive information like the location of the file that produced the unhandled exception | <img width="490" height="142" alt="kuva" src="https://github.com/user-attachments/assets/3d7d43dc-0ed4-4700-a6ea-bd624a900bd9" /> |
