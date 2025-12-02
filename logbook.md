@@ -15,4 +15,5 @@
 | 23.11.2025 | 2 | project  | switched back to windows desktop after miserable failure on VM world(will be trying to fix this because i like working in vm kinda style) |
 | 23.11.2025 | 6 | project  | watched lecture 3 and working on ZAP attacks and documenting tasks |
 | 28.11.2025 | 4 | project  | finishing  reports  |
+| 2.12.2025 | 4- | project  | Zap attacks, checking for fixed or non fixed vulnerabilities and doing official report for task  |
 
