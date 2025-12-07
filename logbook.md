@@ -16,4 +16,7 @@
 | 23.11.2025 | 6 | project  | watched lecture 3 and working on ZAP attacks and documenting tasks |
 | 28.11.2025 | 4 | project  | finishing  reports  |
 | 2.12.2025 | 8 | project  | Zap attacks, checking for fixed or non fixed vulnerabilities and doing official report for task  |
+| 6.12.2025 | 1 | project/phase2  | doing zap attack |
+| 7.12.2025 | 5 | project/phase2  | passwordcracking |
+
 
