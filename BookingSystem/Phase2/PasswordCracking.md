@@ -28,5 +28,24 @@ Used hashcat commands:
 
 Tested cracked passwords in exercise site and those worked. Think i passed this task.
 
+*What is the main difference between Dictionary and Non-Dictionary attacks?*
+
+The main difference between Dictionary attacks and Non-Dictionary attacks lies in how they attempt to guess a password.
+
+Dictionary attack uses a predefined list of likely passwords. Faster but are limited to listed words 
+
+Non-Dictionary attack dows not rely on real-word list. Tries all possible combinatios of characters, patterns or rules. Slower than dictionary but will eventually break passwords.
+
+
+*What advantage does an attacker gain by having access to the system’s database that reveals the users and the password hashes?*
+
+Attacker(s) can crack passwords offline without triggering any alarms or lockouts. So it allows unlimited guessing and the ability to target all users at once.
+
+*What concrete security benefits are achieved by using longer passwords instead of shorter ones?*
+
+It increased the number of possible combinatios, making brute-force and guessing attacks much slower. Longer passwords are also harder to match using dictionary or pattern-based attacks. Overall it requires more computation and time to break, especially when combinde with strong hashing algorithms.
+
+
+
 
 
