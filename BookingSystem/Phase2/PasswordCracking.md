@@ -7,9 +7,26 @@
 | iamyourfather@deathstar.gov | 706ab9fc256efabf4cb4cf9d31ddc8eb | dictionary attack  | <img width="965" height="56" alt="kuva" src="https://github.com/user-attachments/assets/84579240-b742-41d8-b6d7-6236e6897be2" />, <img width="544" height="35" alt="kuva" src="https://github.com/user-attachments/assets/a9217eb3-cdfa-4cb5-98f2-bfb576950083" />|
 | elementary@221bbaker.uk | 12c9cef0bfb6b91c42b363b4cf02d8bb | 3 digit, 10 letters -> first part of the password is deduction  | <img width="943" height="55" alt="kuva" src="https://github.com/user-attachments/assets/c3fd0e23-11ea-438b-b4fc-102d5dcbd329" />, <img width="580" height="36" alt="kuva" src="https://github.com/user-attachments/assets/c96a3166-a583-4412-b185-c80709df4287" />|
 | genius@starkindustries.com | d50ba4dd3fe42e17e9faa9ec29f89708 | dictionary attack  | <img width="967" height="48" alt="kuva" src="https://github.com/user-attachments/assets/72716362-ca3d-4ba4-8715-4982a5553b40" />, <img width="534" height="32" alt="kuva" src="https://github.com/user-attachments/assets/c83ef8fa-27f4-4501-afd0-e2832638bd25" />|
-| whysoserious@gothamchaos.net | f158d479ee181aac68b000a60e7a3d7a | 9 mixed characters -> first part is chaos, last character is !  | Module 1 |
-| quackattack@duckburg.org | ea261222d4867b3ebdfadbe2b35e19d5 | 15 lowercase letters -> last part is isjealous  | Module 1 |
-| ruhroh@mysterymachine.com | ad17fbd845000b11678ccbf94e135b56 | 1 digit + 12 lowercase -> last part is scooby, digit is the middle character  | Module 1 |
-| foo-bar@example.com | d730fc82effd704296b5bbcff45f323e | dictionary attack  | Module 1 |
+| whysoserious@gothamchaos.net | f158d479ee181aac68b000a60e7a3d7a | 9 mixed characters -> first part is chaos, last character is !  | <img width="889" height="50" alt="kuva" src="https://github.com/user-attachments/assets/11c4d063-6670-447f-a48c-2a9c7b66b18b" />, <img width="512" height="40" alt="kuva" src="https://github.com/user-attachments/assets/8cc9c933-7f51-4832-9ec5-bd8e40eb9411" />|
+| quackattack@duckburg.org | ea261222d4867b3ebdfadbe2b35e19d5 | 15 lowercase letters -> last part is isjealous  | <img width="984" height="48" alt="kuva" src="https://github.com/user-attachments/assets/b1e556f5-66a0-4283-9461-accb7d8d1144" />, <img width="598" height="40" alt="kuva" src="https://github.com/user-attachments/assets/5cbe229a-655d-4956-9a4a-4eb7ac346253" />|
+| ruhroh@mysterymachine.com | ad17fbd845000b11678ccbf94e135b56 | 1 digit + 12 lowercase -> last part is scooby, digit is the middle character  | <img width="978" height="58" alt="kuva" src="https://github.com/user-attachments/assets/89864510-f740-419b-8173-c4aff7b71d32" />, <img width="574" height="44" alt="kuva" src="https://github.com/user-attachments/assets/9ee422ff-f1bb-42ff-bffe-19d59d3a522d" />|
+
+
+In  this exercise i used kali linux and there we downloaded hashcat, hydra, rockyou.txt.
+
+Used hashcat commands:
+1. hashcat -O -m 0 -a 0 "a0e8402fe185455606a2ae870dcbc4cd" rockyou.txt --force
+2. hashcat -O -m 0 -a 0 "d730fc82effd704296b5bbcff45f323e" rockyou.txt --force
+3. hashcat -O -m 0 -a 3 "735f7f5e652d7697723893e1a5c04d90" iamven?l?l?l?l?l?l
+4. hashcat -O -m 0 -a 3 "7cb56c2b86150b797cff32eaef97f338" breaking?d?l?l?l?lll
+5. hashcat -O -m 0 -a 0 "706ab9fc256efabf4cb4cf9d31ddc8eb" rockyou.txt --force
+6. hashcat -O -m 0 -a 3 "12c9cef0bfb6b91c42b363b4cf02d8bb" deduction?d?d?d?u
+7. hashcat -O -m 0 -a 0 "d50ba4dd3fe42e17e9faa9ec29f89708" rockyou.txt --force
+8. hashcat -O -m 0 -a 3 "f158d479ee181aac68b000a60e7a3d7a" chaos?d?d?d?s
+9. hashcat -O -m 0 -a 3 "ea261222d4867b3ebdfadbe2b35e19d5" ?l?l?l?l?l?lisjealous
+10. hashcat -O -m 0 -a 3 "ad17fbd845000b11678ccbf94e135b56" ?l?l?l?l?l?l?dscooby
+
+Tested cracked passwords in exercise site and those worked. Think i passed this task.
+
 
 
