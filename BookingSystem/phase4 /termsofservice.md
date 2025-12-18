@@ -57,5 +57,17 @@ We reserve the right to suspend or terminate your account if you violate these T
 
 ## 8. Changes to These Terms
 
-We may revise these
+We may revise these Terms of Service from time to time. Any changes will be posted on this page with an updated effective date. Continued use of the application after changes are made constitutes acceptance of the revised terms.
 
+---
+
+## 9. Governing Law
+
+These Terms of Service are governed by and interpreted in accordance with the laws of **Finland**.
+
+---
+
+## 10. Contact
+
+If you have any questions regarding these Terms of Service, please contact us at:  
+**BookingSystem@gmail.com**
