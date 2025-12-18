@@ -18,6 +18,7 @@
 | 2.12.2025 | 8 | project  | Zap attacks, checking for fixed or non fixed vulnerabilities and doing official report for task  |
 | 6.12.2025 | 1 | project/phase2  | doing zap attack |
 | 7.12.2025 | 5 | project/phase2  | passwordcracking |
+| 16.12.2025 | 8 | portswigger | labs |
 | 17.12.2025 | 4 | project/phase3&4  | phase3&4 |
 | 18.12.2025 | 8 | project/phase3&4  | phase3&4 |
 
