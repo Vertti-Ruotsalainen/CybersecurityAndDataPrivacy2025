@@ -1,39 +1,3 @@
-You will investigate what each role (Guest, Reserver, Administrator):
-
-    CAN do
-    CANNOT do
-
-…based on the official application specifications and the actual behavior of the current Phase 3 implementation.
-
-You will test all accessible pages, functions, and API endpoints and then produce:
-
-> [!NOTE]
-> As a reminder
-
-**You are a novice penetration tester at a company. Your company should implement the following application (specs):**
-
-1. The system is accessed via a web browser.  
-2. Users can register and, after registration, log in to the system.  
-3. A registered and logged-in user acts as either a resource reserver or an administrator.  
-4. The administrator can add, remove, and modify resources and reservations.  
-5. The administrator can delete the reserver.  
-6. A reserver can book a resource if they are over 15 years old.  
-7. Resources can be booked on an hourly basis.  
-8. The booking system displays booked resources without requiring login, but does not show the reserver's identity
-9. The client, your company, requires that the system complies with GDPR regulations.  
-10. The system provider has stated that the software is developed following the Privacy by Design (PbD) principle. 
-
----
-
-**Imagine that your client wants confirmation that:**
-
-* Guests cannot access protected content
-* Reservers cannot perform admin actions
-* Administrators have full control but no unnecessary extra exposure
-* No endpoint leaks, hidden pages, or bypasses exist
-* Authorization decisions are correctly enforced at the backend
-
-
 
 ### 🧑‍🦲 **Guest**
 
@@ -115,7 +79,4 @@ List prohibited behaviors, if any, or incorrect implementation issues.
 ---
 
 
----
 
-> [!NOTE]
-> ✔️ Hidden pages found with Gobuster or ZAP must also be added under the correct role.
