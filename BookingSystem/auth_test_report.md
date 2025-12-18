@@ -7,8 +7,8 @@
 
 
 
-* Can view public resource list -- `/`
-* Can acces login and register form -- `/login`
+* Can view public resource list -- `/` (spec 8)
+* Can acces login and register form -- `/login` (spec 2)
 * Can view registered reservation witohut identity -- "/" (spec 8)
 * Can view registered accounts, token, role etc with `/api/users`
 * Can view `/api/resources`
