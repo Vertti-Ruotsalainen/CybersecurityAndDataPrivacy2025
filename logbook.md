@@ -21,10 +21,10 @@
 | 16.12.2025 | 8 | portswigger | labs |
 | 17.12.2025 | 4 | project/phase3&4  | phase3&4 |
 | 18.12.2025 | 8 | project/phase3&4  | phase3&4 |
-| 19.12.2025 | ? | portswigger  | final lab sessions |
-| 20.12.2025 | ? | portswigger  | final lab sessions |
+| 19.12.2025 | 4 | portswigger  | final lab sessions |
+| 20.12.2025 | 4 | portswigger & phase 5  | final lab session and phase 5 |
 
-66,5 hours before final lab sessions
+74,5 hours total used 
 
 
 
